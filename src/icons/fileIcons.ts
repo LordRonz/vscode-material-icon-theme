@@ -43,6 +43,10 @@ export const fileIcons: FileIcons = {
       fileExtensions: ['proto'],
     },
     {
+      name: 'playwright',
+      fileNames: ['playwright.config.js', 'playwright.config.ts'],
+    },
+    {
       name: 'sublime',
       fileExtensions: ['sublime-project', 'sublime-workspace'],
     },
@@ -318,7 +322,7 @@ export const fileIcons: FileIcons = {
       fileExtensions: ['hh', 'hpp', 'hxx', 'h++', 'hp', 'tcc', 'inl'],
     },
     { name: 'go', fileExtensions: ['go'] },
-    { name: 'go-mod', fileNames: ['go.mod', 'go.sum'] },
+    { name: 'go-mod', fileNames: ['go.mod', 'go.sum', 'go.work'] },
     { name: 'python', fileExtensions: ['py'] },
     {
       name: 'python-misc',
@@ -731,6 +735,11 @@ export const fileIcons: FileIcons = {
       light: true,
     },
     {
+      name: 'remix',
+      fileNames: ['remix.config.js', 'remix.config.ts'],
+      light: true,
+    },
+    {
       name: 'terraform',
       fileExtensions: ['tf', 'tf.json', 'tfvars', 'tfstate'],
     },
@@ -976,6 +985,14 @@ export const fileIcons: FileIcons = {
       ],
     },
     {
+      name: 'blitz',
+      fileNames: [
+        'blitz.config.js',
+        'blitz.config.ts',
+        '.blitz.config.compiled.js',
+      ],
+    },
+    {
       name: 'contributing',
       fileNames: ['contributing.md'],
     },
@@ -1078,6 +1095,10 @@ export const fileIcons: FileIcons = {
         'firestore.rules',
         'firestore.indexes.json',
       ],
+    },
+    {
+      name: 'figma',
+      fileExtensions: ['fig'],
     },
     {
       name: 'rollup',
@@ -1690,6 +1711,7 @@ export const fileIcons: FileIcons = {
       fileNames: ['maven.config', 'jvm.config'],
     },
     { name: 'ada', fileExtensions: ['ada', 'adb', 'ads', 'ali'] },
+    { name: 'serverless', fileNames: ['serverless.yml'] },
     {
       name: 'ember',
       fileNames: ['.ember-cli', '.ember-cli.js', 'ember-cli-builds.js'],

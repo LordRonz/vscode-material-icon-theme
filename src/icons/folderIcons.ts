@@ -437,7 +437,7 @@ export const folderIcons: FolderTheme[] = [
       { name: 'folder-cluster', folderNames: ['cluster', 'clusters'] },
       {
         name: 'folder-command',
-        folderNames: ['command', 'commands', 'cli', 'clis'],
+        folderNames: ['command', 'commands', 'cmd', 'cli', 'clis'],
       },
       { name: 'folder-constant', folderNames: ['constant', 'constants'] },
       {
@@ -621,7 +621,15 @@ export const folderIcons: FolderTheme[] = [
       { name: 'folder-mjml', folderNames: ['mjml'] },
       { name: 'folder-admin', folderNames: ['admin'] },
       { name: 'folder-scala', folderNames: ['scala'] },
-      { name: 'folder-connection', folderNames: ['connection', 'connections'] },
+      {
+        name: 'folder-connection',
+        folderNames: [
+          'connection',
+          'connections',
+          'integration',
+          'integrations',
+        ],
+      },
       { name: 'folder-quasar', folderNames: ['.quasar'] },
       { name: 'folder-cobol', folderNames: ['cobol'] },
       { name: 'folder-yarn', folderNames: ['yarn', '.yarn'] },
